@@ -49,3 +49,13 @@ a {
     border-color: darken($secondary, 10%);
   }
 }
+
+img#logo {
+  max-width: 300px!important;
+  height: auto;
+}
+
+.col-md-6.titulo{
+  display: flex;
+  align-items: center;
+}
