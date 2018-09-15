@@ -38,6 +38,18 @@ hr.star-light.title {
   margin-right: auto;
 }
 
+hr.line {
+  max-width: 20rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 hr.star-light:after,
 hr.star-dark:after {
   position: relative;
@@ -61,6 +73,7 @@ hr.star-light:after {
 hr.star-dark {
   border-color: $secondary;
 }
+
 hr.star-dark:after {
   color: $secondary;
   background-color: white;
@@ -114,4 +127,33 @@ section {
 .ml3 {
   font-weight: 900;
   font-size: 3.5em;
+}
+
+.card{
+  width: 100%!important;
+  color: $white;
+  background-color: transparent;
+  font-family: Montserrat;
+}
+
+.card.par{
+text-align: right;
+}
+.card {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+@media (min-width: 992px){
+.col-lg-8 {
+    display: flex;
+    align-items: center;
+}}
+
+.col-lg-4 {
+    text-align: center;
+}
+
+.col-md-8.col-lg-8 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

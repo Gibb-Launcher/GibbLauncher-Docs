@@ -43,6 +43,12 @@
     font-size: 1.5em;
   }
 }
+
+img#logoMini{
+  max-width: 55px!important;
+  height: auto;
+  float: left;
+}
 @media(min-width:992px) {
   #mainNav {
     padding-top: 0.5rem;

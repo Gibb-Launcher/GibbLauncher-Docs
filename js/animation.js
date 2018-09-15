@@ -22,3 +22,4 @@ anime.timeline()
       return 500 * (i+1)
     }
   })
+
